@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    SizedBox(width: 30,),
+                    SizedBox(width: 40,),
                     Container(
                       width: 250, 
                       child: TextField(
@@ -54,7 +54,7 @@ class MyApp extends StatelessWidget {
                   ],
                 ),
                 SizedBox(height: 30,),
-                ElevatedButton(onPressed: (){}, child: Text('Login'))
+                ElevatedButton(onPressed: (){}, child: Text('Login')),
               ]
             ),
           ),
